@@ -1,0 +1,466 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Perfect Couple. Single page responsive wedding site theme.">
+		<meta name="author" content="Coffeecream Themes, info@coffeecream.eu">
+		<title>Perfect Couple. Single page responsive wedding site theme.</title>
+		<link rel="shortcut icon" href="images/favicon.png">
+
+		<!-- Pace Loader -->
+		<script src="{% static "js/pace.min.js"%}"></script>
+  		<link href="{% static "css/pace.css"%}" rel="stylesheet" />
+
+		<!-- Bootstrap -->
+		<link href="{% static "css/bootstrap.css"%}" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="{% static "css/style.css"%}" rel="stylesheet">
+
+		<!-- Countdown CSS -->
+		<link href="{% static "css/countdown.css"%}" rel="stylesheet">
+
+		<!-- Owl Carousel stylesheet -->
+		<link href="{% static "css/owl.carousel.min.css"%}" rel="stylesheet">
+
+		<!-- Owl Carousel Default Theme -->
+		<link href="{% static "css/owl.theme.default.min.css"%}" rel="stylesheet">
+
+		<!-- Animate CSS -->
+		<link href="{% static "css/animate.css"%}" rel="stylesheet">
+
+		<!-- Fancybox -->
+		<link href="{% static "css/jquery.fancybox.css"%}" rel="stylesheet">
+
+		<!-- Google Fonts -->
+		<link href="http://fonts.googleapis.com/css?family=PT+Serif%7CEngagement%7COpen+Sans:800" rel="stylesheet">
+
+		<!-- Font Awesome Icons -->
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.2/css/font-awesome.css" rel="stylesheet">
+
+		<!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+		<script src="{% static "js/html5shiv.js"%}"></script>
+		<script src="{% static "js/respond.min.js"%}"></script>
+		<![endif]-->
+
+	</head>
+	<body>
+
+		<!-- ========== MENU START ========== -->
+
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!--<a class="navbar-brand" href="index.html"><img src="{% static "images/logo.png" %}" alt="Perfect Couple. Single page responsive wedding site theme." class="img-responsive" /></a>-->
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#about">Nous</a></li>
+						<li><a href="#events">Evenements</a></li>
+						<li><a href="#rsvp">RSVP</a></li>
+						<li><a href="#rsvp">Liste de mariage</a></li>
+						<li><a href="#guestbook">Livre d'or</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- ========== MENU END ========== -->
+
+		<div class="container">
+
+			<!-- ========== BANNER START ========== -->
+
+			<div id="slides">
+				<div class="slides-container">
+					<img src="{% static "images/1600x900/IMG_0833.png"%}" alt="" />
+					<img src="{% static "images/1600x900/5.jpg"%}" alt="" />
+					<img src="{% static "images/1600x900/7.png"%}" alt="" />
+					<!--<img src="http://placehold.it/1600x900.jpg" alt="" />
+					<img src="http://placehold.it/1600x900.jpg" alt="" />
+					<img src="http://placehold.it/1600x900.jpg" alt="" />
+					<img src="http://placehold.it/1600x900.jpg" alt="" />-->
+				</div>
+				<div class="tint">
+					<div class="welcome text-center" data-scroll-reveal="enter from the top after 2s">
+						<h1>Souad &amp; Thibaut</h1>
+						<p>se marient !</p>
+						<p><span></span><i class="fa fa-heart"></i><span></span></p>
+						<p>Le 28 Mars 2015</p>
+					</div>
+				</div>
+				<div class="countdown" data-scroll-reveal="enter from the bottom after 2.5s"></div>
+			</div>
+
+			<!-- ========== BANNER END ========== -->
+
+			<!-- ========== ABOUT US START ========== -->
+
+			<section id="about" class="text-center">
+				<div class="row">
+					<div class="col-sm-12 heading" data-scroll-reveal>
+						<h2>Nous</h2>
+						<p><span></span><i class="fa fa-heart"></i><span></span></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-6" data-scroll-reveal="enter from the left">
+						<a href="person1.html" class="hover-effect">
+							<img src="{% static "images/270x270/1.jpg"%}" class="img-responsive img-circle" alt="" />
+							<span class="img-circle">
+								<i class="fa fa-link fa-3x"></i>
+							</span>
+						</a>
+						<h5>Thibaut Carlier</h5>
+						<p>Gros bogoss</p>
+						<div class="mobile-divider"><span></span><i class="fa fa-heart"></i><span></span></div>
+					</div>
+					<div class="col-sm-6" data-scroll-reveal="enter from the right after 0.5s">
+						<a href="person2.html" class="hover-effect">
+							<img src="{% static "images/IMG_0439.JPG"%}" class="img-responsive img-circle" alt="" />
+							<span class="img-circle">
+								<i class="fa fa-link fa-3x"></i>
+							</span>
+						</a>
+						<h5>Souad Alia</h5>
+						<p>compétente pour les taches ménagères</p>
+						
+					</div>
+				</div>
+			</section>
+
+			<!-- ========== ABOUT US END ========== -->
+
+
+			
+
+			<!-- ========== EVENTS START ========== -->
+
+			<section id="events" style="background: #faf9f5;" class="text-center">
+				<div class="row">
+					<div class="col-sm-12 heading" data-scroll-reveal>
+						<h2>Evenements</h2>
+						<p><span></span><i class="fa fa-heart"></i><span></span></p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-4" data-scroll-reveal="enter from the left after 0.25s">
+						<div class="blog-short">
+							<img src="{% static "images/370x260/1.png"%}" class="img-responsive" alt="" />
+							<h5>La demande</h5>
+							<h6>3 Décembre 2014</h6>
+							<p>Un beau resto, une bell soirée...</p>
+						</div>
+					</div>
+					<div class="col-sm-4" data-scroll-reveal>
+						<div class="blog-short">
+							<img src="{% static "images/370x260/2.png"%}" class="img-responsive" alt="" />
+							<h5>Le mariage religieux</h5>
+							<h6>9 janvier 2015</h6>
+							<p>
+							Officié par le professeur de religion de Thibaut, le mariage à réuni...
+							</p>
+						</div>
+					</div>
+					<div class="col-sm-4" data-scroll-reveal="enter from the right after 0.5s">
+						<div class="blog-short">
+							<img src="{% static "images/370x260/3.png"%}" class="img-responsive" alt="" />
+							<h5>Mairie et Soirée Orientale</h5>
+							<h6>28 Mars 2015</h6>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sit amet pharetra nunc, non scelerisque ligula. Cras vel justo nulla. Vestibulum a sollicitudin metus, faucibus fermentum leo.</p>
+						</div>
+					</div>
+					
+				</div>
+			</section>
+
+		
+			<!-- ========== LOCATION START ========== -->
+
+			<section id="location">
+
+				<!-- Google Map Script -->
+				<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoRMxiPsqJ9SUuaK1KsCAjd3gqnecjlBw&amp;sensor=false"></script>
+				<script type="text/javascript">
+
+					function initialize() {
+
+						// Create an array of styles.
+						var styles = [
+							{
+							"stylers": [
+								{ "saturation": -100 },
+								{ "gamma": 1 }
+							]
+							},{
+								"featureType": "water",
+								"stylers": [
+									{ "lightness": -12 }
+								]
+							}
+						];
+
+						// Create a new StyledMapType object, passing it the array of styles,
+						// as well as the name to be displayed on the map type control.
+						var styledMap = new google.maps.StyledMapType(styles,
+						{name: "Styled Map"});
+
+						var mapOptions = {
+							scrollwheel: false,
+							zoom: 14,
+							center: new google.maps.LatLng(50.62215580671373, 3.0583839259643355),
+							mapTypeControlOptions: {
+								mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
+							}
+						}
+						var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+						//Associate the styled map with the MapTypeId and set it to display.
+						map.mapTypes.set('map_style', styledMap);
+						map.setMapTypeId('map_style');
+
+						setMarkers(map, places);
+					}
+
+					var places = [
+						['Kechmara<br>Rue des Postes<br>Lille', 50.622149, 3.05327699999998, 1],
+					];
+
+					function setMarkers(map, locations) {
+						// Add markers to the map
+						var image = {
+							url: '{% static "images/map-marker.png" %}',
+							// This marker is 40 pixels wide by 42 pixels tall.
+							size: new google.maps.Size(62, 58),
+							// The origin for this image is 0,0.
+							origin: new google.maps.Point(0,0),
+							// The anchor for this image is the base of the pin at 20,42.
+							anchor: new google.maps.Point(20, 58)
+						};
+
+						var infowindow = new google.maps.InfoWindow();
+
+						var marker, i;
+						var markers = new Array();
+
+						for (var i = 0; i < locations.length; i++) {
+							var place = locations[i];
+							var myLatLng = new google.maps.LatLng(place[1], place[2], place[3]);
+							var marker = new google.maps.Marker({
+								position: myLatLng,
+								map: map,
+								icon: image,
+								title: place[0],
+								zIndex: place[3],
+								animation: google.maps.Animation.DROP
+							});
+
+							markers.push(marker);
+
+							google.maps.event.addListener(marker, 'click', (function(marker, i) {
+								return function() {
+									infowindow.setContent(locations[i][0]);
+									infowindow.open(map, marker);
+								}
+							})(marker, i));
+						}
+					}
+
+					google.maps.event.addDomListener(window, 'load', initialize);
+				</script>
+
+				<div id="map-canvas"></div>
+
+				<!-- ========== LOCATION END ========== -->
+
+				<!-- ========== RSVP START ========== -->
+
+				<div id="rsvp" class="text-center" data-scroll-reveal>
+					<div class="heading">
+						<h2>RSVP</h2>
+						<p><span></span><i class="fa fa-heart"></i><span></span></p>
+					</div>
+					<form role="form" name="contactform" action="./" method="POST">
+						<div class="row">
+							<div id="name-group" class="form-group col-xs-12">
+								<label for="inputName">Nom</label>
+								<input type="text" class="form-control" id="inputName" name="name" placeholder="John Doe">
+							</div>
+						</div>
+						<div class="row">
+							<div id="email-group" class="form-group col-xs-12">
+								<label for="inputEmail">Email</label>
+								<input type="email" class="form-control" id="inputEmail" name="email" placeholder="name@domain.com">
+							</div>
+						</div>
+						<div class="row">
+							<div id="guests-group" class="form-group col-xs-6">
+								<label for="selectGuests">Invités</label>
+								<select class="form-control" name="guests" id="selectGuests">
+									<option value="1" selected>1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+								</select>
+							</div>
+							
+						</div>
+						<div class="row">
+							<button type="submit" class="btn btn-lg">J'y serai !</button>
+						</div>
+					</form>
+				</div>
+
+				<!-- ========== RSVP END ========== -->
+
+			</section>
+
+			<section id="registry" class="text-center">
+				<div class="row">
+					<div class="col-sm-12" data-scroll-reveal>
+						<p>Liste de mariage</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 owl-carousel" data-scroll-reveal>
+						<div class="item">
+							<a href=""><span></span><img src="http://placehold.it/130x50.png" class="img-responsive" alt="" /></a>
+						</div>
+						<div class="item">
+							<a href=""><span></span><img src="http://placehold.it/130x50.png" class="img-responsive" alt="" /></a>
+						</div>
+						<div class="item">
+							<a href=""><span></span><img src="http://placehold.it/130x50.png" class="img-responsive" alt="" /></a>
+						</div>
+						<div class="item">
+							<a href=""><span></span><img src="http://placehold.it/130x50.png" class="img-responsive" alt="" /></a>
+						</div>
+						<div class="item">
+							<a href=""><span></span><img src="http://placehold.it/130x50.png" class="img-responsive" alt="" /></a>
+						</div>
+						<div class="item">
+							<a href=""><span></span><img src="http://placehold.it/130x50.png" class="img-responsive" alt="" /></a>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section id="guestbook">
+
+				<!-- COMMENT FORM START -->
+				<div class="row">
+					<div class="col-sm-12 text-center" data-scroll-reveal>
+						<hr>
+						<h3>Livre d'or</h3>
+					</div>
+				</div>
+				<form role="form" method="post" action="./">
+					<div class="row" data-scroll-reveal>
+						<div class="form-group col-sm-6">
+							<input type="text" name="name" class="form-control" id="input-name" placeholder="Nom">
+						</div>
+						<div class="form-group col-sm-6">
+							<input type="email" name="email" class="form-control" id="input-email" placeholder="Email">
+						</div>
+					</div>
+					<div class="row" data-scroll-reveal>
+						<div class="form-group col-sm-12">
+							<textarea name="body" class="form-control" rows="5"></textarea>
+						</div>
+					</div>
+					<div class="row" data-scroll-reveal>
+						<div class="form-group col-sm-12 text-center">
+							<button type="submit" name="guestbook" class="btn btn-lg btn-primary">Envoyer</button>
+						</div>
+					</div>
+				</form>
+				<!-- COMMENTS FORM END -->
+
+				<!-- COMMENTS START -->
+				<div class="row">
+					<div class="col-sm-12">
+						<ul class="media-list">
+							{% for post in book %}
+							<li class="media">
+								<div class="media-body">
+									<h6 class="media-heading">{{ post.name }}</h6>
+									<p class="post-meta">
+										<span><i class="fa fa-calendar"></i>{{ post.created_date }}</span>
+									</p>
+									<p>{{ post.body }}</p>
+								</div>
+							</li>
+							{% endfor %}
+						</ul>
+					</div>
+				</div>
+				<!-- COMMENTS END -->
+
+
+				</div>
+			</section>
+
+
+			<!-- ========== FOOTER START ========== -->
+
+			<footer>
+				<div class="row text-center">
+					<div class="col-sm-12" data-scroll-reveal>
+						 2015 - Souad & Thibaut
+					</div>
+				</div>
+			</footer>
+
+		<!-- ========== FOOTER END ========== -->
+
+		</div>
+
+		<!-- Modernizr Plugin -->
+		<script src="{% static "js/modernizr.custom.97074.js"%}"></script>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="{% static "js/jquery-1.10.2.min.js"%}"></script>
+
+		<!-- Bootstrap Plugins -->
+		<script src="{% static "js/bootstrap.min.js"%}"></script>
+
+		<!-- Retina Plugin -->
+		<script src="{% static "js/retina-1.1.0.min.js"%}"></script>
+
+		<!-- Countdown Plugin -->
+		<script src="{% static "js/jquery.plugin.min.js"%}"></script>
+		<script src="{% static "js/jquery.countdown.min.js"%}"></script>
+
+		<!-- Scrolly Plugin -->
+		<script src="{% static "js/jquery.scrolly.js"%}"></script>
+
+		<!-- CountTo Plugin -->
+		<script src="{% static "js/jquery.countTo.js"%}"></script>
+
+		<!-- Owl Carousel Plugin -->
+		<script src="{% static "js/owl.carousel.min.js"%}"></script>
+
+		<!-- Fancybox Plugin -->
+		<script src="{% static "js/jquery.fancybox.js"%}"></script>
+
+		<!-- RSVP Form Processing -->
+		<!--<script src="{% static "js/magic.js"%}"></script>-->
+
+		<!-- Scroll Reveal Plugin -->
+		<script src="{% static "js/scrollReveal.js"%}"></script>
+
+		<!-- jQuery Settings -->
+		<script src="{% static "js/settings.js"%}"></script>
+
+
+	</body>
+</html>

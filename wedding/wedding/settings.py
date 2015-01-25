@@ -24,6 +24,10 @@ DEBUG = True
 
 TEMPLATE_DEBUG = True
 
+TEMPLATE_DIRS = (
+    BASE_DIR + '/templates',
+)
+
 ALLOWED_HOSTS = []
 
 
@@ -36,6 +40,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'wedding',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -46,6 +51,10 @@ MIDDLEWARE_CLASSES = (
     'django.contrib.auth.middleware.SessionAuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+)
+
+STATICFILES_DIRS = (
+    os.path.join(BASE_DIR, "media"),
 )
 
 ROOT_URLCONF = 'wedding.urls'
