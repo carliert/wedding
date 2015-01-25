@@ -39,7 +39,7 @@
 		var weddingDate = new Date(2015,3,28);
 		$(".countdown").countdown({
 			until: weddingDate,
-			format: 'ODHMS'
+			format: 'DHMS'
 		});
 
 		// ====================================================================
