@@ -5,6 +5,8 @@ from django import forms
 
 from wedding.models import Guest, GuestPost
 
+import wedding
+
 @csrf_exempt
 def home(request):
     book = GuestPost.objects.all().order_by('-created_date')
