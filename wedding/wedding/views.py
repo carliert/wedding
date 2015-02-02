@@ -24,7 +24,7 @@ def home(request):
                 name = form.cleaned_data['name']
                 email = form.cleaned_data['email']
                 guests = form.cleaned_data['guests']
-                g = Guest(name=name,email=email,guests=guests)
+                g = wedding.models.Guest(name=name,email=email,guests=guests)
                 g.save()
                 return HttpResponseRedirect('/#rsvp')
     return render_to_response("index.html",{'book':book})
