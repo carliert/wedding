@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from core.models import Guest, GuestPost
+from wedding.models import Guest, GuestPost
 
 class GuestAdmin(admin.ModelAdmin):
     pass
